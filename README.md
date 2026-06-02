@@ -26,39 +26,61 @@ Dark Mode: Full dark mode support across all pages System preference detection M
 How to Run on VS Code (Windows) Prerequisites:
 
 Node.js 18+ installed — Download from https://nodejs.org VS Code installed — Download from https://code.visualstudio.com Steps:
+
 Extract ZIP Extract DesignAR-App.zip to any folder (e.g., Desktop)
+
 Open in VS Code Open VS Code File → Open Folder → Select the extracted folder
+
 Install Dependencies:
+
 Open Terminal (Ctrl + ~) and run:
+
 npm install 
+
 Wait for installation to complete (1-2 minutes).
+
 Run Development Server:
+
 npm run dev
+
 Open in Browser Go to: http://localhost:3000
+
 Build for Production:
+
 npm run build
-Run Production Build: 
+
+Run Production Build:
+
 npm start
 
 Key Technical Details:
 
 
 State Management (Zustand):
+
 app-store: Page navigation, current page tracking
 auth-store:
+
 User login/signup, session persistence (localStorage)
 design-store: 
 Saved designs, AR settings, current furniture items 
-AR View Implementation: 
+AR View Implementation:
+
 Room images serve as backgrounds ( tags for reliability) Furniture items rendered as overlay elements Drag: Uses useRef for performance (not useState) 
+
 Rotate: 90-degree rotation on tap 
+
 Scale: Pinch-to-zoom gesture support 
-Room Switching: 4 rooms available 
+
+Room Switching: 4 rooms available
+
 Data Persistence: All data stored in localStorage User sessions persist across browser refreshes Saved designs include room type, furniture items, and positions 
+
 PWA Support: Service Worker for offline caching Web App Manifest for home screen installation All icon sizes generated (72px to 512px)
 
 Author
 
 
 DesignAR Team: University Project — AR-Based Interior Design Mobile Application 
+
 📄 License: This project is for educational purposes. All rights reserved
