@@ -78,7 +78,16 @@ Data Persistence: All data stored in localStorage User sessions persist across b
 
 PWA Support: Service Worker for offline caching Web App Manifest for home screen installation All icon sizes generated (72px to 512px)
 
-Author
+Category:
+App Category: 	Lifestyle
+Sub Category: 	House & Home / Interior Design
+Tags: 	AR, Interior Design, Furniture, Room Design, Augmented Reality, Home Decor.
+
+version:
+Version Name: 	2.0.0
+Version Code: 	2
+
+Author:
 
 
 DesignAR Team: University Project — AR-Based Interior Design Mobile Application 
