@@ -1,5 +1,5 @@
 # AR-Interior-Design-App
-It's a complete AR based app using for interior design.
+Design Your Space with AR - Visualize furniture in your room before buying.
 
 Project Overview:
 
